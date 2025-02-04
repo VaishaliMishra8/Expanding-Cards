@@ -13,7 +13,16 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  background-color: lightblue;
+  background-color: whitesmoke;
+}
+
+.heading{
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  text-decoration: double;
+  font-family: "Lucida Handwriting";;
 }
 
 .container {
@@ -26,13 +35,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  border-radius: 50px;
+  border-radius: 40px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
  -webkit-transition: all 700ms ease-in;
+ top: 30px;
 }
 
 .panel h3 {
